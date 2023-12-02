@@ -131,3 +131,5 @@ sudo ln -s /usr/local/apache/bin/httpd /usr/bin/httpd
 Una vez OK cierras la terminal o reinicias la terminal que estas usando para que se pueda ejecutar el comando **httpd -v**
 
 Y listo con eso ya podría funcionar apache 2.4.58 en tu CentOS Stream 9.
+
+![Apache 2.4.58](https://i.ibb.co/nQnXd8v/image.png)
