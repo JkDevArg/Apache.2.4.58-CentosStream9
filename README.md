@@ -77,13 +77,21 @@ Debes tener en cuenta que debes usar usuario **Root** para poder ejecutar el mak
 
 Si todo salio ok, deberias poder configurar a tu gusto el conf de apache. (Opcional)
 
-## Este apartado ya es valido para los que han descargado el repo y no quieren compilar.
+### Este apartado ya es valido para los que han descargado el repo y no quieren compilar
+
+Si lo has descargado del repo sigue los siguientes pasos
+
+```bash
+sudo mv Apache.2.4.58-CentosStream9-main /usr/local/apache
+```
+
+con eso ya puedes continuar con los demás pasos.
 
 ```bash
 sudo nano /usr/local/apache/conf/httpd.conf
 ```
 
-Inicir el servició:
+Iniciar el servició:
 
 ```bash
 sudo /usr/local/apache/bin/apachectl start
