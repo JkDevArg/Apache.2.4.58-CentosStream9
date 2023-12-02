@@ -2,8 +2,9 @@
 
 Compilación de Apache 2.4.58 Latest Dev en CentOS Stream 9.
 
-Tener en cuenta lo siguiente lo he compilado en una maquina virtual.
-Arqitectura x86-64.
+Tener en cuenta lo siguiente 
+- compilado en una maquina virtual con Arqitectura x86-64.
+- El build es el código original de Apache 2.4.58 no se agrego ni se quito nada, todo esta como viene.
 
 ---
 
