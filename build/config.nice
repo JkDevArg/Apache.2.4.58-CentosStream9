@@ -1,0 +1,9 @@
+#! /bin/sh
+#
+# Created by configure
+
+CC="gcc"; export CC
+"./configure" \
+"--prefix=/usr/local/apache" \
+"CC=gcc" \
+"$@"
