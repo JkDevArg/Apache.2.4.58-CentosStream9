@@ -14,7 +14,7 @@ La siguiente guía es para los que quieran compilar por su propia cuenta desde e
 - CentOS Stream 9 - VM <https://www.linuxvmimages.com/images/centosstream-9/>
 - Source Apache 2.4.58 - <https://dlcdn.apache.org/httpd/httpd-2.4.58.tar.gz>
 
-## Proceso de Instalación
+## Proceso de Descarga y Descomprimido
 
 Usuario Root para el SO.
 
@@ -44,6 +44,8 @@ Ingresamos a la carpeta
 ```bash
 cd httpd-2.4.58
 ```
+
+## Proceso de Compilación e instalación
 
 ```bash
 ./configure --prefix=PREFIX
