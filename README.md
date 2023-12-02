@@ -77,6 +77,8 @@ Debes tener en cuenta que debes usar usuario **Root** para poder ejecutar el mak
 
 Si todo salio ok, deberias poder configurar a tu gusto el conf de apache. (Opcional)
 
+### Este apartado ya es valido para los que han descargado el repo y no quieren compilar.
+
 ```bash
 sudo nano /usr/local/apache/conf/httpd.conf
 ```
