@@ -27,7 +27,7 @@ Password : centos
 Instalar las siguientes herramientas una vez en dentro del sistema CentOS 9
 
 ```bash
-sudo dnf install -y apr apr-util apr-devel apr-util-devel
+sudo dnf install -y apr apr-util apr-devel apr-util-devel pcre pcre-devel
 ```
 
 Descomprimir Apache en una carpeta con acceso permitido ejemplo: /Download/Apache
