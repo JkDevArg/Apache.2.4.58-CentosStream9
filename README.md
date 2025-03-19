@@ -5,41 +5,7 @@ Compilación de Apache 2.4.58 Latest Dev en CentOS Stream 9.
 Video: <https://www.youtube.com/watch?v=xGtRfRuRJR0>
 
 Tener en cuenta lo siguiente 
-- compilado en una maquina virtual con Arqitectura x86-64.
-- El build es el código original de Apache 2.4.58 no se agrego ni se quito nada, todo esta como viene.
-
----
-
-La siguiente guía es para los que quieran compilar por su propia cuenta desde el source de apache.
-
-## Requisitos
-
-- CentOS Stream 9 - VM <https://www.linuxvmimages.com/images/centosstream-9/>
-- Source Apache 2.4.58 - <https://dlcdn.apache.org/httpd/httpd-2.4.58.tar.gz>
-
-## Proceso de Descarga y Descomprimido
-
-Usuario Root para el SO.
-
-```bash
-Username: centos
-Password : centos
-```
-
-Instalar las siguientes herramientas una vez en dentro del sistema CentOS 9
-
-```bash
-sudo dnf install -y apr apr-util apr-devel apr-util-devel pcre pcre-devel
-```
-
-Descomprimir Apache en una carpeta con acceso permitido ejemplo: /Download/Apache
-
-```bash
-gzip -d httpd-2.4.58.tar.gz
-```
-
-```bash
-tar xvf httpd-2.4.58.tar
+- compilado en una 
 ```
 
 Ingresamos a la carpeta
